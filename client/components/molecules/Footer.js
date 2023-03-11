@@ -49,7 +49,7 @@ const Footer = () => {
           </Grid>
           <Grid sx={{ mb: 3 }} item xs={6} md={2.5}>
             <Typography variant="h6" sx={{ color: 'white', mt: 2 }}>About</Typography>
-            <Link href={'/about'}>
+            <Link href={'https://smruti.vercel.app/'}>
               <Typography variant="body1" sx={{ color: 'gray', "&:hover": { color: BLUE }, mt: 2 }}>Know the Developer</Typography>
             </Link>
           </Grid>
