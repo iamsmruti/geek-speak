@@ -9,6 +9,7 @@ import { red } from '@mui/material/colors';
 import Loading from '../components/atoms/Loading';
 
 import { useRouter } from 'next/router';
+import { Analytics } from '@vercel/analytics/react';
 
 const theme = createTheme({
   palette: {
@@ -45,9 +46,12 @@ function MyApp({ Component, pageProps }) {
   }, [])
 
   return (
+    <>
       <ThemeProvider theme={theme}>
         {!loading ? <Component {...pageProps} /> : <Loading />}
       </ThemeProvider>
+      <Analytics />
+    </>
   );
 }
 
