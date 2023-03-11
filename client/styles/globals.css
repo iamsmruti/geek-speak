@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+  color: lightgrey;
+}
+
+body{
+  background-color: black;
+}
+
+.ce-popover{
+  background-color: black;
+  color: lightgrey;
+  border: 1px solid rgba(211, 211, 211, 0.44);
+}
+
+.ce-block__content, .ce-toolbar__content { max-width:calc(100% - 80px) !important; } .cdx-block { max-width: 100% !important; }
+
+::selection {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.login-background{
+  background-image: url('../core/assets/background.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
