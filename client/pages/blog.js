@@ -10,7 +10,7 @@ import { client } from '../sanity'
 import {PortableText} from '@portabletext/react'
 import { SampleImageComponent, customCodeComponent } from '../core/utils/BlockItems'
 
-const blog = () => {
+const Blog = () => {
   const router = useRouter()
   const { slug } = router.query
 
@@ -100,4 +100,4 @@ const blog = () => {
   )
 }
 
-export default blog
+export default Blog

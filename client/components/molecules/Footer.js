@@ -8,7 +8,6 @@ import Logo from '../atoms/Logo'
 import { useState, useEffect } from "react"
 import { client } from "../../sanity";
 
-import { menuItems } from "../../core/utils/MenuItems";
 import { BLUE, DARKGRAY } from "../../core/utils/Colors";
 
 const Footer = () => {
