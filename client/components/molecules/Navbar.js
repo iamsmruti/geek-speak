@@ -16,7 +16,7 @@ const Navbar = () => {
         </Link>
 
         <Stack direction={'row'} alignItems={'center'}>
-          <a href='https://www.sanity.io/get-started/create-project?projectId=zhyod7di&originUrl=https://www.sanity.io/studio&template=get-started&intentSurvey=completed'>
+          <a href='https://geek-speak-sanity.vercel.app'>
             <WriteIcon />
           </a>
         </Stack>
