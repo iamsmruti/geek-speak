@@ -21,11 +21,11 @@ const BlogCardLarge = ({post}) => {
                 }}>{post.description}</Typography>
 
                 <Stack direction={'row'} justifyContent={'flex-start'} sx={{ mt: 2 }}>
-                    <Link href="/blog" style={{cursor: 'pointer'}}><Button variant='contained'>Read More</Button></Link>
+                    <Link href={`/blog?slug=${post.slug.current}`} style={{cursor: 'pointer'}}><Button variant='contained'>Read More</Button></Link>
                 </Stack>
             </Grid>
             <Grid item md={4} xs={12}>
-                <Link href="/blog" style={{cursor: 'pointer'}}>
+                <Link href={`/blog?slug=${post.slug.current}`} style={{cursor: 'pointer'}}>
                     <img style={{ width: '100%' }} src={post.mainImage.asset.url} />
                 </Link>
             </Grid>
